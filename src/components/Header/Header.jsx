@@ -14,7 +14,7 @@ export default function Header() {
                 </div>
                 <div className="menu">
                     <ul className='d-flex align-items-center justify-content-evenly'>
-                        <li>Home</li>
+                        <li>Pradeep Shukla</li>
                         <li>About Us</li>
                         <li>Feature</li>
                         <li>Price</li>
