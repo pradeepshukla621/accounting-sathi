@@ -5,6 +5,9 @@
     margin: 0 5px 0 5px;
     padding: 0 10px 0 10px;
 }
+.menu ul li:hover{
+    cursor: pointer;
+}
 .get-started-btn{
     color: #FFFFFF;
     background-color: #0054AA;
