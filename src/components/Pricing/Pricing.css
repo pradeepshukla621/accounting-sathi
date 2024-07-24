@@ -1,0 +1,95 @@
+.feature-btn {
+    color: #FFFFFF;
+    background-color: #1A938A;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 94px;
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+    margin-top: 50px;
+    height: 55px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+.pricing-heading {
+    font-size: 55px;
+    line-height: 100px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pricing-content {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 0 80px;
+
+}
+
+.monthly-btn {
+    position: relative;
+    left: 40px;
+    color: #000000;
+    background-color: #ffbf3f;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 94px;
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+    margin: 25px 0;
+    height: 55px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+
+}
+
+.yearly-btn {
+    position: relative;
+    right: 40px;
+    z-index: -1;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 94px;
+    border-radius: 50px;
+    padding: 0 30px 0 10px;
+    margin: 25px 0;
+    height: 55px;
+    width: 240px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-style: none;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cust-row {
+    gap: 40px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+
+
+}
+
+.pricing-card .cust-card {
+    padding: 0;
+    width: 300px !important;
+
+
+}

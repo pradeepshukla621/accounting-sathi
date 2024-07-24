@@ -1,0 +1,14 @@
+.footer-wraper {
+    background-color: #060B1E;
+    color: #fff !important;  
+    margin-top: 25px;
+   
+}
+
+.cust-text-muted {
+    --bs-text-opacity: 1;
+    /* color: var(--bs-secondary-color) !important; */
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+}

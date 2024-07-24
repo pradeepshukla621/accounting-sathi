@@ -4,7 +4,7 @@ import callIcon from "./../../assets/images/call-svg.svg"
 import arrowIcon from "./../../assets/images/arrow-svg.svg"
 import Modal from '../Modal/Modal';
 
-export default function Header() {
+export default function Header(props) {
     return (
         <>
             <div className="wrap-header pt-3">
@@ -20,8 +20,8 @@ export default function Header() {
                         <li>Price</li>
                         <li>Contact Us</li>
                         <li><img src={callIcon} alt="call" />+ 1234 567 865</li>
-                        <li className='get-started-btn'> <a href={Modal}>
-                            Get Started<img src={arrowIcon} alt="arrows" />  </a></li>
+                        <li className='get-started-btn' onClick={() => props.setShowModal(true)}>
+                            Get Started<img src={arrowIcon} alt="arrows" /> </li>
                     </ul>
                 </div>
                 </div>

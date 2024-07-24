@@ -17,10 +17,11 @@ function AboutUs() {
                 </div>
 
                 <div className="bottom-section d-flex">
-                    <div className="about-left">
-                        <img src={aboutLeftImg} alt="aboutLeftImg" />
+                    <div className="row">
+                    <div className="col-lg col-md about-left">
+                        <img className="about-img" src={aboutLeftImg} alt="aboutLeftImg" />
                     </div>
-                    <div className="about-right">
+                    <div className="col-lg col-md about-right">
                         <p>
                             Switch from spreadsheets and outdated accounting software to Accounting Sathi: a modern, 
                             hassle-free money management solution. Our tech-savvy team has crafted software that 
@@ -29,6 +30,7 @@ function AboutUs() {
                         </p>
 
                         <button className="get-started-custom">Get Started</button>
+                    </div>
                     </div>
                 </div>
 

@@ -1,3 +1,13 @@
+.wrap-header{
+    /* position: fixed;
+    top: 0px;
+    left: 0px; */
+    width: 100%;
+    padding: 0 15px;
+
+    background: linear-gradient(90deg, rgba(240, 240, 240, 1) 50%, rgba(0, 148, 212, 1) 100%);
+}
+
 .menu ul{
     list-style-type: none;
 }
@@ -28,12 +38,3 @@
    
 }
 
-.wrap-header{
-    /* position: fixed;
-    top: 0px;
-    left: 0px; */
-    width: 100%;
-    padding: 0 10px;
-
-    background: linear-gradient(90deg, rgba(240, 240, 240, 1) 50%, rgba(0, 148, 212, 1) 100%);
-}

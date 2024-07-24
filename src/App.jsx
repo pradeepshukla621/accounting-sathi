@@ -7,6 +7,11 @@ import AboutUs from './components/AboutUs/AboutUs'
 import './App.css'
 import Feature from './components/Feature/Feature'
 import Modal from './components/Modal/Modal'
+import Need from './components/Need/Need'
+import Testimonial from './components/Testimonial/Testimonial'
+import Pricing from './components/Pricing/Pricing'
+import Footer from './components/Footer/Footer'
+
 
 
 
@@ -26,13 +31,16 @@ function App() {
 
   return (
     <>
-      <Header />
+    
+      <Header setShowModal={setShowModal}/>
       <Modal show={showModal} onClose={handleClose} />
-      <Hero />
+      <Hero setShowModal={setShowModal}/>
       <AboutUs />
       <Feature />
-      
-     
+      <Need />
+      <Testimonial />
+      <Pricing />
+      <Footer />
 
 
     </>

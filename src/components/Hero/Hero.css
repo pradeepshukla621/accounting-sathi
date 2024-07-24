@@ -1,11 +1,12 @@
 .wrap-hero {
     /* padding-top:100px; */
     background: linear-gradient(90deg, rgba(240, 240, 240, 1) 50%, rgba(0, 148, 212, 1) 100%);
-    padding: 0 10px;
+    padding: 0 35px;
 }
 .bimage{
     height: 800px;
     width: 800px;
+    max-width: 100%;
 }
 
 .banner-content h2{
@@ -24,6 +25,7 @@
     font-size: 22px;
     line-height: 34px;
     font-weight: 400;
+    max-width: 400px;
 
 }
 
@@ -44,11 +46,10 @@
 }
 
 /* Hero footer  */
-.wrap-hero
-
-.hero-footer-content{
-    padding: 10px;
+.wrap-hero-footer{
+    padding: 15px;
 }
+
 
 .hero-footer-content p {
     font-size: 37px ;
@@ -65,7 +66,16 @@
 
 hr{
    
-    width: 1265px;
+    width: 50%;
     border: 2px;
-    margin: 0 auto;
+    margin: 5px auto;
+}
+
+.banner-row {
+    margin: 0;
+   
+}
+
+.pindom-img{
+    max-width: 100%;
 }
