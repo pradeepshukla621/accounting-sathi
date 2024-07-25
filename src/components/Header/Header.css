@@ -5,7 +5,7 @@
     width: 100%;
     padding: 0 15px;
 
-    background: linear-gradient(90deg, rgba(240, 240, 240, 1) 50%, rgba(0, 148, 212, 1) 100%);
+    background: linear-gradient(90deg, rgba(240, 240, 240, 1) 50%, rgba(0, 148, 212, 1) 100%) ;
 }
 
 .menu ul{
@@ -37,4 +37,10 @@
     padding-left: 5px;
    
 }
+
+
+li .get-started-btn{
+    margin-left: 10px;
+}
+
 

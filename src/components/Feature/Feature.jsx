@@ -203,9 +203,9 @@ function Feature() {
                     {/* card 1 */}
 
                     <div className="rect-card mt-5">
-                        <div className="d-flex justify-content-start ">
+                        <div className="rect-card-wrap">
 
-                            <div className="rect-card-wrap">
+                            <div className="">
                                 <div className="rect-card-heading" >
                                     <p class="rect-heading"> 01. E Invoice </p>
                                     <p className="rect-content">
@@ -268,7 +268,7 @@ function Feature() {
 
                             <div className="">
                                 <div className="rect-card-heading" >
-                                    <p class="rect-heading"> 01. E Invoice </p>
+                                    <p class="rect-heading"> 03. E Invoice </p>
                                     <p className="rect-content">
                                         We’re simplifying every aspect of managing a world-wide team, from benefits and
                                         equity to working visas and equipment. It’s one platform made to get you set up.
