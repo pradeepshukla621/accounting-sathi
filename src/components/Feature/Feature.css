@@ -1,8 +1,11 @@
 /*   Feature Section FIRST CSS */
 
 .wrap-feature {
-    margin: 25px 20px 0;
-    padding-bottom: 25px;
+    margin: 25px 0 0 0 !important;
+    /* padding-bottom: 25px; */
+
+    padding: 0 20px 25px;
+
 }
 
 .feature-btn {
@@ -76,6 +79,11 @@
 
 /*   Feature Section SECOND CSS */
 
+.f-section-1{
+    display: flex;
+}
+
+
 .cust-heading {
     text-align: start;
 }
@@ -118,7 +126,7 @@
 .feature-tab {
     width: 590px;
     height: 448px;
-    max-width: 100%;
+    /* max-width: 100%; */
     border-radius: 25px;
     padding-bottom: 10px;
 }
@@ -127,13 +135,35 @@
     display: flex;
     justify-content: start;
 }
+.rect-card-wrap-top  {
+    display: flex;
+    justify-content: start;
+    /* text-align: center; */
+    padding-bottom: 20px;
+}
+
+.card-div{
+    text-align: center;
+    
+}
+
+
 
 @media (max-width: 950px) {
+    .feature-tab{
+        height: Auto;
+        width: 326px;
+    }
+
     .f-card-content-second {
         position: static;
         text-align: left;
+        display: block !important;
+        padding: 40px 0;
+        
     }
 
+   
 
     /* .rect-card-wrap{
         flex-direction: column;
@@ -156,7 +186,34 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .f-section-1{
+        display: block;
+    }
+    .f-section-1 p {
+        width: 100%;
+    }
+    .rect-card-wrap-top  {
+        display: block;
+        
+    }
 
 }
+
+@media (min-width: 951px) and (max-width: 1350px) {
+    .f-card-content-second {
+        font-size: 18px;
+        line-height: 36px;
+        font-weight: 500;
+        text-align: left;
+        margin: 0 !important;
+        width: 512px;
+        position: static;
+       
+        /* top: 110px;
+        right: 165px; */
+    }
+}
+
+
 
 /* d-flex justify-content-start */

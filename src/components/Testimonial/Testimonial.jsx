@@ -29,7 +29,10 @@ function Testimonial() {
           </div>
 
           <div className="testimonial-right col-lg">
+            <div className="testimonial-right-img">
             <img src={SliceIcon} alt="SliceIcon" srcset="" />
+            </div>
+           
 
 
             <p>Startups thrive with AccuPay. Their flexible payroll solutions have been instrumental in our

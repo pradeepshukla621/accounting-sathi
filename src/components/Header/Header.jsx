@@ -32,7 +32,7 @@ export default function Header(props) {
 
             <div className="wrap-header">
                 <nav className="navbar navbar-expand-lg">
-                    <div className="container-fluid justify-content-center">
+                    <div className="container-fluid">
                         <a className="navbar-brand" href="#">
                             <img src={accountingLogo} alt="logo" />
                             {/* Pradeep */}
@@ -44,7 +44,8 @@ export default function Header(props) {
                         
 
                         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-spacebet">
+                            <ul className="navbar-nav">
+                            {/* me-auto mb-2 mb-lg-0 */}
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="https://pradeepshukla621.github.io/cv/">Home</a>
                                 </li>
@@ -67,7 +68,7 @@ export default function Header(props) {
                                 <li className="nav-item">
                                     <a className="nav-link disabled" aria-disabled="true">Disabled</a>
                                 </li>
-                                <li className="nav-item"><img src={callIcon} alt="call" />+ 1234 567 865</li>
+                                <li className="nav-item call-icon"><img src={callIcon} alt="call" />+ 1234 567 865</li>
                                 <li className='nav-item get-started-btn' onClick={() => props.setShowModal(true)}>
                                     Get Started<img src={arrowIcon} alt="arrows" /> </li>
                             </ul>
@@ -81,7 +82,7 @@ export default function Header(props) {
 
             {/* dflmrgrsgsrpgjmrpgjm */}
 
-            <div className="wrap-header">
+            {/* <div className="wrap-header">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
@@ -112,14 +113,15 @@ export default function Header(props) {
                                 <a className="nav-link" href="#">Disabled</a>
                             </li>
                         </ul>
-                        <span className="navbar-text d-flex align-item-center">
-                           <p> +1234 567 865 </p>
+                        <span className="navbar-text d-flex align-item-center ms-3">
+                           <p className=''> +1234 567 865 </p>
                         </span>
-                        <a className="btn btn-primary ms-3" href="#">Get Started</a>
+                        <span className='nav-item get-started-btn ms-3' onClick={() => props.setShowModal(true)}>
+                                    Get Started<img src={arrowIcon} alt="arrows" /> </span>
                     </div>
                 </div>
             </nav>
-            </div>
+            </div> */}
 
 
 

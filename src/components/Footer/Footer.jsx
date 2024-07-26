@@ -5,9 +5,9 @@ import accountingLogo from "./../../assets/images/accounting-sathi-logo.svg"
 function Footer() {
     return (
         <>
-            <div className="footer-wraper">
+            <div className="footer-wrapper">
                 <div className="container">
-                    <footer className="pt-4  pt-md-5 mt-5 border-top ">
+                    <footer className="pt-5 ">
                         <div className="row">
                             <div className="col-12 col-md">
                                 <img className="mb-2" src={accountingLogo} alt="" width="197" height="43" />

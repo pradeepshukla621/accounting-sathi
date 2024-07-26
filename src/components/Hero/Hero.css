@@ -1,11 +1,13 @@
-.wrap-hero {
+
+.wrap-hero-header {
     /* padding-top:100px; */
     background: linear-gradient(90deg, rgba(240, 240, 240, 1) 50%, rgba(0, 148, 212, 1) 100%);
-    padding: 0 35px;
+    padding: 0 35px 50px;
+   
 }
 .bimage{
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
     max-width: 100%;
 }
 
@@ -51,24 +53,25 @@
 }
 
 
-.hero-footer-content p {
+.hero-footer-number  {
+    font-weight: 800;
     font-size: 37px ;
     line-height: 48px;
-    font-weight: 800;
-    width: 564px;
+   
 }
 
-.hero-footer-content span {
+.hero-footer-text {
     font-weight: 400;
     font-size: 30px;
+    
     
 }
 
 hr{
    
-    width: 50%;
+    width: 80%;
     border: 2px;
-    margin: 5px auto;
+    margin: 5px auto !important;
 }
 
 .banner-row {

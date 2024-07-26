@@ -4,7 +4,7 @@ import "./Pricing.css"
 function Pricing() {
     return (
         <>
-            <div className="wrap-pricing">
+            <div className="pricing-wrapper">
                 <div className="pricing-head">
                     <div className="d-flex justify-content-center">
                         <button className="feature-btn "> Pricing </button>

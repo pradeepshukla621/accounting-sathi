@@ -88,7 +88,7 @@ const MultiCardSlide = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2.70,
+    slidesToShow: 2.65,
     slidesToScroll: 1,
 
     autoplay: true,

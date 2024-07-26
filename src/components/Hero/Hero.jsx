@@ -6,9 +6,9 @@ export default function Hero(props) {
 
     return (
         <>
-            <div className="">
+            <div className="wrap-hero">
                 
-                <div className="row wrap-hero d-flex align-item-center justify-content-between">
+                <div className="row wrap-hero-header d-flex align-item-center justify-content-between m-0">
                     <div className="col-lg banner-content">
                         <h2>Welcome to Accounting Sathi!</h2>
                         <h1> Smart Solution. </h1>
@@ -25,9 +25,10 @@ export default function Hero(props) {
 
                 </div>
 
-                <div className="row wrap-hero-footer d-flex justify-content-between mt-5">
+                <div className="row wrap-hero-footer d-flex justify-content-between m-0 mt-5 ">
                     <div className="col-lg hero-footer-content">
-                        <p> 15,000+  <span className="hero-footer-text">businesses from small startups to household names </span></p>
+                        <span className="hero-footer-number"> 15,000+ </span>
+                        <span className="hero-footer-text">businesses from small startups to household names </span>
 
                     </div>
                     <div className="col-lg hero-footer-image">

@@ -192,7 +192,7 @@ function Feature() {
                     <div className="d-flex justify-content-start">
                         <button className="feature-btn "> Feature </button>
                     </div>
-                    <div className="d-flex zzzs">
+                    <div className="f-section-1">
                         <p className="feature-heading cust-heading">Perfect solutions for <p>your business</p> </p>
                         <p className="f-card-content-second ">
                             We’re simplifying every aspect of managing a world-wide team, from benefits and equity to
@@ -203,7 +203,7 @@ function Feature() {
                     {/* card 1 */}
 
                     <div className="rect-card mt-5">
-                        <div className="rect-card-wrap">
+                        <div className="rect-card-wrap-top">
 
                             <div className="">
                                 <div className="rect-card-heading" >
@@ -215,8 +215,9 @@ function Feature() {
                                 </div>
                             </div>
 
-                            <div className="card-div">
+                            <div className="card-div pt-5">
                                 <img className="feature-tab" src={featureTablet} alt="" srcset="" />
+
                             </div>
 
                         </div>
