@@ -43,6 +43,21 @@ function Footer() {
                                     <li><a className="cust-text-muted" href="#">Terms</a></li>
                                 </ul>
                             </div>
+
+
+                            <div class="d-flex justify-content-between py-4 px-1 border-top">
+                                <p>© 2021 Company, Inc. All rights reserved.</p>
+                                <ul class="list-unstyled d-flex">
+                                    <p className="">
+                                    <span><a href="">Privacy Policy</a></span>
+                                    <span className="px-2"> | </span>
+                                    <span><a href="">Terms & Conditions</a></span></p>
+                                    {/* <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> */}
+                                </ul>
+                            </div>
+
                         </div>
                     </footer>
                 </div>

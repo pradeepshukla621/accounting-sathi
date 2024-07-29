@@ -19,7 +19,7 @@ function Pricing() {
                 </div>
 
                 <div className="pricing-button">
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center position-relative z-3">
                         <button className="monthly-btn">Monthly</button>
                         <button className="yearly-btn">Yearly</button>
                     </div>

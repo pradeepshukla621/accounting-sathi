@@ -1,0 +1,14 @@
+.quote-wrapper {
+    background: url(../../assets/images/feedback.png);
+    height: 580px;
+}
+
+.quote-title {
+    color: #FFFFFF;
+    font-style: inter;
+    font-weight: 900;
+    font-size: 82px;
+    line-height: 99px;
+    text-align: center;
+    padding: 25px 0;
+}

@@ -11,6 +11,8 @@ import Need from './components/Need/Need'
 import Testimonial from './components/Testimonial/Testimonial'
 import Pricing from './components/Pricing/Pricing'
 import Footer from './components/Footer/Footer'
+import QuoteForm from './components/QuoteForm/QuoteForm'
+import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar'
 
 
 
@@ -31,7 +33,7 @@ function App() {
 
   return (
     <>
-    
+      <SocialMediaBar />
       <Header setShowModal={setShowModal}/>
       <Modal show={showModal} onClose={handleClose} />
       <Hero setShowModal={setShowModal}/>
@@ -40,6 +42,7 @@ function App() {
       <Need />
       <Testimonial />
       <Pricing />
+      <QuoteForm />
       <Footer />
 
 
