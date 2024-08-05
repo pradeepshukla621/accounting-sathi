@@ -2,7 +2,38 @@ strong {
   color: black;
 }
 
-.row{
+.row {
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+@media (max-width: 390px) {
+
+  /* hero */
+  .banner-content h1 {
+    font-size: 40px;
+  }
+
+  /* feature */
+  .feature-heading {
+    font-size: 55px !important;
+    line-height: 70px;
+  }
+
+  /* testimonial */
+  .testimonial-left p {
+    font-size: 35px !important;
+    line-height: 70px !important;
+   
+}
+
+}
+
+@media (max-width: 500px) {
+  /* modal */
+.close-button {
+  position: relative;
+  top: 175px;
+  left: 130px;
+}
 }

@@ -1,6 +1,8 @@
 .quote-wrapper {
     background: url(../../assets/images/feedback.png);
-    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
 }
 
 .quote-title {
@@ -10,5 +12,84 @@
     font-size: 82px;
     line-height: 99px;
     text-align: center;
-    padding: 25px 0;
+    padding-top: 20px;
+    /* padding: 25px 0 0px; */
+}
+
+.form-input {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-input-box {
+   
+    padding: 20px 0px 30px;
+    text-align: center;
+}
+
+.quote-input-box input {
+    width: 500px;
+    max-width: 90%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 10px;
+    
+    border-radius: 10px;
+}
+
+.text-message {
+    text-align: center;
+}
+
+.text-area {
+    width: 960px;
+    max-width: 90%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    resize: none;
+    overflow: hidden;
+
+}
+
+.submit-form {
+    text-align: center;
+    padding: 40px;
+}
+
+.submit-button {
+    width: 25%;
+    height: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+@media (max-width: 800px) {
+
+    .form-input {
+        display: block;
+    }
+
+    .quote.input-box {
+        width: auto;
+    }
+
+    .submit-button {
+        width: 200px;
+        max-width: 100%;
+    }
+
 }

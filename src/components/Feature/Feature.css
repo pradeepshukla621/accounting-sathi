@@ -215,5 +215,23 @@
 }
 
 
+@media (max-width: 500px) {
+
+    .feature-card {
+        width: 300px;
+    }
+
+    .f-card-content {
+        padding: 0 25px;
+    }
+
+    .feature-tab{
+        height: Auto;
+        width: 250px;
+    }
+    
+}
+
+
 
 /* d-flex justify-content-start */

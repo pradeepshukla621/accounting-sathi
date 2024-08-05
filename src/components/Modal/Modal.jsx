@@ -11,9 +11,7 @@ const Modal = ({ show, onClose }) => {
     <div className="modal-overlay">
       <div className="modal-content">
         <button className="close-button" onClick={onClose}>X</button>
-        {/* <h2>Modal Title</h2>
-        <p>This is a modal pop-up.</p> */}
-        <LoginForm />
+        <LoginForm  />
       </div>
     </div>
   );

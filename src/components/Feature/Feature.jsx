@@ -46,6 +46,8 @@ function Feature() {
                             <p className="f-card-content">
                                 We’re simplifying every aspect of managing a world-wide team,
                                 from benefits and equity to working visas and equipment..
+                                We’re simplifying every aspect of managing a world-wide team,
+                                from benefits and equity to working visas and equipment..
                             </p>
                         </div>
                     </div>
@@ -211,6 +213,7 @@ function Feature() {
                                     <p className="rect-content">
                                         We’re simplifying every aspect of managing a world-wide team, from benefits and
                                         equity to working visas and equipment. It’s one platform made to get you set up.
+                                        
                                     </p>
                                 </div>
                             </div>
